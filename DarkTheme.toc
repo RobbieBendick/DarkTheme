@@ -1,0 +1,5 @@
+## Interface: 11306
+## Author: Mageiden / Robdog
+## Title: DarkTheme
+## Notes: Darkens WoW UI.
+core.lua
