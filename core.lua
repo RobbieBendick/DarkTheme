@@ -45,9 +45,3 @@ MinimapZoomIn:ClearAllPoints()
 MinimapZoomIn:SetPoint("CENTER", 70, -13)
 MinimapZoomOut:ClearAllPoints()
 MinimapZoomOut:SetPoint("CENTER", -20, -20)
-
-
-
--- move buffs
-BuffFrame:ClearAllPoints()
-BuffFrame:SetPoint("TOPLEFT", MinimapCluster, -100, -100)
