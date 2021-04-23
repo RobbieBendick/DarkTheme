@@ -1,7 +1,7 @@
    
 local reskin={
     PlayerFrameTexture, TargetFrameTextureFrameTexture,
-    MinimapBorder,
+    MinimapBorder, TargetFrameToTTextureFrameTexture,
     MainMenuBarRightEndCap, MainMenuBarLeftEndCap,
     MainMenuBarTexture0, MainMenuBarTexture1,
     MainMenuBarTexture2, MainMenuBarTexture3,
