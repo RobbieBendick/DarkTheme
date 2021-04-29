@@ -7,6 +7,7 @@ local reskin={
     MainMenuBarTexture2, MainMenuBarTexture3,
     MainMenuMaxLevelBar0, MainMenuMaxLevelBar1,
     MainMenuMaxLevelBar2, MainMenuMaxLevelBar3,
+    FocusFrameTextureFrameTexture,
     MainMenuXPBarTextureLeftCap, MainMenuXPBarTextureRightCap,
     ReputationWatchBarTexture0, ReputationWatchBarTexture1,
     ReputationWatchBarTexture2, ReputationWatchBarTexture3,
