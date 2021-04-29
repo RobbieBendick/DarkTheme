@@ -7,7 +7,7 @@ local reskin={
     MainMenuBarTexture2, MainMenuBarTexture3,
     MainMenuMaxLevelBar0, MainMenuMaxLevelBar1,
     MainMenuMaxLevelBar2, MainMenuMaxLevelBar3,
-    FocusFrameTextureFrameTexture,
+    FocusFrameTextureFrameTexture, FocusFrameToTTextureFrameTexture,
     MainMenuXPBarTextureLeftCap, MainMenuXPBarTextureRightCap,
     ReputationWatchBarTexture0, ReputationWatchBarTexture1,
     ReputationWatchBarTexture2, ReputationWatchBarTexture3,
@@ -46,3 +46,4 @@ MinimapZoomIn:ClearAllPoints()
 MinimapZoomIn:SetPoint("CENTER", 70, -13)
 MinimapZoomOut:ClearAllPoints()
 MinimapZoomOut:SetPoint("CENTER", -20, -20)
+
