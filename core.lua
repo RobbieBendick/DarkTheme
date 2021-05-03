@@ -1,9 +1,9 @@
-   
 local reskin={
     PlayerFrameTexture, TargetFrameTextureFrameTexture,
     MinimapBorder, TargetFrameToTTextureFrameTexture,
     MainMenuBarRightEndCap, MainMenuBarLeftEndCap,
     MainMenuBarTexture0, MainMenuBarTexture1,
+    PetFrameTexture,
     MainMenuBarTexture2, MainMenuBarTexture3,
     MainMenuMaxLevelBar0, MainMenuMaxLevelBar1,
     MainMenuMaxLevelBar2, MainMenuMaxLevelBar3,
@@ -32,7 +32,6 @@ MinimapToggleButton:Hide()
 MiniMapWorldMapButton:Hide()
 GameTimeFrame:Hide()
 
-
 --move minimap up a bit, to adjust for border remove, and make minimap a bit smaller
 MinimapCluster:ClearAllPoints()
 MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", -5, 5)
@@ -46,4 +45,3 @@ MinimapZoomIn:ClearAllPoints()
 MinimapZoomIn:SetPoint("CENTER", 70, -13)
 MinimapZoomOut:ClearAllPoints()
 MinimapZoomOut:SetPoint("CENTER", -20, -20)
-
