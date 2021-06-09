@@ -32,7 +32,7 @@ MinimapToggleButton:Hide()
 MiniMapWorldMapButton:Hide()
 GameTimeFrame:Hide()
 
---move minimap up a bit, to adjust for border remove, and make minimap a bit smaller
+--move minimap up a bit to adjust for border remove, and make minimap a bit smaller
 MinimapCluster:ClearAllPoints()
 MinimapCluster:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", -5, 5)
 MinimapCluster:SetScale(0.9)
