@@ -3,7 +3,8 @@ local reskin={
     MinimapBorder, TargetFrameToTTextureFrameTexture,
     MainMenuBarRightEndCap, MainMenuBarLeftEndCap,
     MainMenuBarTexture0, MainMenuBarTexture1,
-    PetFrameTexture,
+    PetFrameTexture, MiniMapTrackingBorder,
+    MiniMapMailBorder,
     MainMenuBarTexture2, MainMenuBarTexture3,
     MainMenuMaxLevelBar0, MainMenuMaxLevelBar1,
     MainMenuMaxLevelBar2, MainMenuMaxLevelBar3,
@@ -26,11 +27,14 @@ for i=1,#reskin do
 end
 
 --hide a bunch of clutter stuff on minimap
-MinimapZoneTextButton:Hide()
-MinimapBorderTop:Hide()
-MinimapToggleButton:Hide()
-MiniMapWorldMapButton:Hide()
-GameTimeFrame:Hide()
+local hide = {
+    MinimapZoneTextButton, MinimapBorderTop,
+    MinimapToggleButton, MiniMapWorldMapButton,
+    GameTimeFrame
+}
+for i=1,#hide do
+    hide[i]:Hide()
+end
 
 --move minimap up a bit to adjust for border remove, and make minimap a bit smaller
 MinimapCluster:ClearAllPoints()
