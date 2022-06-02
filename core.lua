@@ -1,4 +1,4 @@
-local reskin={
+local reskin = {
     PlayerFrameTexture, TargetFrameTextureFrameTexture,
     MinimapBorder, TargetFrameToTTextureFrameTexture,
     MainMenuBarRightEndCap, MainMenuBarLeftEndCap,
@@ -17,13 +17,11 @@ local reskin={
     MainMenuXPBarTextureMid,
 }
 
-local red = 0.1
-local green = 0.1
-local blue = 0.1
+local red, green, blue = 0.1, 0.1, 0.1
 
 --change color of everything listed in reskin table
-for i=1,#reskin do
-    reskin[i]:SetVertexColor(red,green,blue)
+for i = 1, #reskin do
+    reskin[i]:SetVertexColor(red, green, blue)
 end
 
 --hide a bunch of clutter stuff on minimap
@@ -32,7 +30,7 @@ local hide = {
     MinimapToggleButton, MiniMapWorldMapButton,
     GameTimeFrame
 }
-for i=1,#hide do
+for i = 1, #hide do
     hide[i]:Hide()
 end
 
